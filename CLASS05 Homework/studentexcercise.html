@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Excercise</title>
+</head>
+<body>
+    <header>
+        <h1>Student Excercise</h1>
+
+        <nav>
+            <ul>
+                <li><a href="form.html">Main Homework</a></li>
+                <li><a href="#">Student Excercise</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <form action="https://my_server.com/" method="get">
+                <fieldset>
+                    <legend><b>Testform</b></legend>
+                    <label for="nameInput">Name</label>
+                    <input type="text" id="nameInput" required>
+                    <br />
+                    <br />
+                    
+                    <label for="passInput">Password</label>
+                    <input type="password" id="passInput" required>
+                    <br />
+                    <br />
+
+                    <p>Gender</p>
+                    <input type="radio" id="male" name="checkOne">
+                    <label for="male">Male</label>
+                    <br />
+                    <input type="radio" id="female" name="checkOne">
+                    <label for="female">Female</label>
+                    <br />
+                    <br />
+
+                    <label for="continent">Continent</label><br /><br />
+                    <select name="continent" id="continent">
+                        <option disabled selected>Please select...</option>
+                        <option>Europe</option>
+                        <option>Asia</option>
+                        <option>North America</option>
+                        <option>South America</option>
+                        <option>Africa</option>
+                        <option disabled>Antartica</option>
+                        <option>Australia</option>
+                    </select>
+
+                    <p>Meals</p>
+                    <input type="checkbox" name="breakfast" id="breakfast">
+                    <label for="breakfast">Breakfast</label><br />
+                    <input type="checkbox" name="lunch" id="lunch">
+                    <label for="lunch">Lunch</label><br />
+                    <input type="checkbox" name="dinner" id="dinner">
+                    <label for="dinner">Dinner</label>
+                    <br />
+                    <br />
+
+
+                    <label for="remark">Remark</label><br /><br />
+                    <textarea minlength="10" maxlength="500" name="remark" id="remark" cols="60" rows="10" required></textarea>
+                    <br />
+
+                    <button type="submit">Send</button>
+                    <button type="reset">Cancel</button>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

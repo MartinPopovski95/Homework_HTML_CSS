@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with forms</title>
+</head>
+<body id="backToTop">
+    <header>
+        <h1>
+            Homework #4 (Class05)
+        </h1>
+
+        <nav>
+            <ul>
+                <li><a href="#">Main Homework</a></li>
+                <li><a href="studentexcercise.html">Student Exercise</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form action="https://my_server.com/" method="get">
+                <fieldset>
+                    <h2>Dado Tea Lunch Special</h2>
+            
+                    <p>
+                        Monday through Friday<br />
+                        11am - 3pm<br />
+                        &#36; 9.95 plus tax
+                    </p>
+                    <p>
+                        Includes sandwitch, snack and drink
+                    </p>
+
+                    <fieldset>
+                        <legend>Order information</legend>
+                        <label for="ordererName"><b>Name</b></label><br />
+                        <input type="text" id="ordererName" required>
+                        <br />
+                        <br />
+
+                        <input type="radio" id="here" name="questionOne">
+                        <label for="here">Here</label>
+                        <br />
+                        <input type="radio" id="toGo" name="questionOne">
+                        <label for="toGo">To Go</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Sandwitches</legend>
+                        <p><b>Monday</b></p>
+                        <input type="radio" id="tomatoMozzarella" name="questionTwo">
+                        <label for="tomatoMozzarella">Tomato Mozzarella</label>
+                        <br />
+                        <input type="radio" id="chickenSalad" name="questionTwo">
+                        <label for="chickenSalad">Chicken Salad</label>
+                        <br />
+                                                
+                        <p><b>Tuesday</b></p>
+                        <input type="radio" id="greekSaladWrap" name="questionThree">
+                        <label for="greekSaladWrap">Greek Salad Wrap</label>
+                        <br />
+                        <input type="radio" id="totoWrap" name="questionThree">
+                        <label for="totoWrap">Toto Wrap</label>
+                        <br />
+                                                
+                        <p><b>Wednesday</b></p>
+                        <input type="radio" id="redPepperHummus" name="questionFour">
+                        <label for="redPepperHummus">Red Pepper Hummus</label>
+                        <br />
+                        <input type="radio" id="roastedTurkey" name="questionFour">
+                        <label for="roastedTurkey">Roasted Turkey</label>
+                        <br />
+                        
+                        <p><b>Thursday</b></p>
+                        <input type="radio" id="carrotGingerHummusWrap" name="questionFive">
+                        <label for="carrotGingerHummusWrap">Carrot-Ginger Hummus Wrap</label>
+                        <br />
+                        <input type="radio" id="eggSalad" name="questionFive">
+                        <label for="eggSalad">Egg Salad</label>
+                        <br />
+                        
+                        <p><b>Friday</b></p>
+                        <input type="radio" id="dadoWrap" name="questionSix">
+                        <label for="dadoWrap">Dado Wrap</label>
+                        <br />
+                        <input type="radio" id="tunaSalad" name="questionSix">
+                        <label for="tunaSalad">Tuna Salad</label>
+                        <hr />
+
+                        <input type="checkbox">
+                        <label for="">Gluten Free Bread (75&#162; extra)</label>
+                        
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Snack</legend>
+
+                        <p><b>Snacks</b></p>
+                        <input type="radio" id="apple" name="questionSeven">
+                        <label for="apple">Apple</label>
+                        <br/>
+                        <input type="radio" id="banana" name="questionSeven">
+                        <label for="banana">Banana</label>
+                        <br/>
+                        <input type="radio" id="potatoChips" name="questionSeven">
+                        <label for="potatoChips">Potato Chips</label>
+                        <br/>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Drink</legend>
+                        <label for="drinks"><b>Drinks</b></label><br />
+                        <select name="drinks" id="drinks">
+                            <option value="hotBlackTeaKeemun">Hot Black Tea - Keemun</option>
+                            <option value="icedBlackTeaKeemun">Iced Black Tea - Keemun</option>
+                            <option value="hotGreenTeaSencha">Hot Green Tea - Sencha</option>
+                            <option value="icedGreenTeaSencha">Iced Green Tea - Sencha</option>
+                            <option value="organicPeppermint">Organic Peppermint</option>
+                            <option value="coffee">Coffee</option>
+                            <option value="icedCoffee">Iced Coffee</option>
+                        </select>
+                        <hr />
+
+                        <input type="checkbox">
+                        <label for="">Large drink (75&#162; extra)</label>
+                    </fieldset>
+                    <br />
+
+                    <input type="submit" value="Place Order" />
+                </fieldset>
+            </form>
+            
+        </section>
+    </main>
+    
+    <footer>
+        <br />
+        <a href="#backToTop">BACK TO TOP</a><br />
+        <small>
+            Thank you for your patience!
+        </small>
+    </footer>
+    
+</body>
+</html>
