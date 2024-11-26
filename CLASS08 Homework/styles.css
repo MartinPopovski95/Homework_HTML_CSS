@@ -1,0 +1,72 @@
+/* COLORS */
+/* Color sand #FEF9E6*/
+/* Color red  #EC4937*/
+/* Color blue #419CC5*/
+/* Color yellow #FFFF00*/
+/* Color border #453A37*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 10px solid #453A36;
+    font-size: 1rem;
+}
+
+#box1 {
+    background-color: #FEF9E6;
+    width: 200px;
+    height: 200px;
+}
+
+#box2 {
+    background-color: red;
+    width: 600px;
+    height: 600px;
+    float: inline-end;
+}
+
+#box3 {
+    background-color: #FEF9E6;
+    width: 200px;
+    height: 400px;
+}
+
+#box4 {
+    background-color: #419CC5;
+    width: 200px;
+    height: 200px;
+}
+
+#box5 {
+    background-color: #FEF9E6;
+    width: 550px;
+    height: 200px;;
+}
+
+#box6 {
+    background-color: #FEF9E6;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+}
+
+#box7 {
+    background-color: #FFFF00;
+    width: 50px;
+    height: 100px;
+}
